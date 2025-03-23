@@ -1,48 +1,46 @@
-# Astro Starter Kit: Basics
+# 🌟 My Portfolio Website 🌟
 
-```sh
-pnpm create astro@latest -- --template basics
-```
+Welcome to my portfolio repository! This project is a personal website designed to showcase my projects, skills, and information in a visually appealing and interactive way. 🚀
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+---
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 📖 About the Project
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+This portfolio was built to:
+- 🖼️ **Showcase my projects**: Highlight the work I've done with detailed descriptions, technologies used, and links to my repositories.
+- 🧑‍💻 **Share my skills**: Provide an overview of my technical expertise and tools I work with.
+- 📞 **Connect with me**: Allow visitors to get in touch via a contact form or social links.
 
-## 🚀 Project Structure
+---
 
-Inside of your Astro project, you'll see the following folders and files:
+## ✨ Features
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- 🎨 **Modern Design**: A clean and responsive layout that looks great on all devices.
+- 🛠️ **Tech Stack**: Built with Astro, HTML, CSS, and JavaScript for fast and lightweight performance. Later on if any framework is needed to improve the functionality of the project, it will be added.
+- 📂 **Project Showcase**: Interactive cards for each project with descriptions, tech stacks, and links to live demos or repositories.
+- 📬 **Contact Form**: A functional form to allow visitors to send me messages directly.
+- 🌐 **Social Links**: Quick access to my GitHub, LinkedIn, and other platforms.
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+---
 
-## 🧞 Commands
+## 🛠️ Technologies Used
 
-All commands are run from the root of the project, from a terminal:
+- **Astro**: A modern static site generator for building fast websites.
+- **HTML5 & CSS3**: For structure and styling.
+- **JavaScript**: For interactivity and dynamic features.
+- **Responsive Design**: Ensures the site looks great on all screen sizes.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+---
 
-## 👀 Want to learn more?
+## 🚀 Getting Started
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Follow these steps to run the project locally:
+
+### Prerequisites
+- Node.js (v16 or later)
+- npm (v7 or later)
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ANGELA-PARGA/portfolio.git
