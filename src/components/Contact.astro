@@ -8,11 +8,12 @@
     <h2>Contact Me</h2>
     <label>
         Your email:
-        <input type="email" name="email">
+        <input type="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+        title="Please enter a valid email address" placeholder="Email">
     </label>
     <label>
         Your message:
-        <textarea name="message"></textarea>
+        <textarea name="message" required placeholder="Let me know what you think"></textarea>
     </label>
     <!-- your other form fields go here -->
     <button type="submit">Send</button>
