@@ -6,7 +6,22 @@ import face from '../assets/Thumbnail.jpg';
 <main >
 	<div class="presentationContainer">		
 		<article class="myInfo">
-			<h1>Hi, I'm Angela Parga</h1>
+			<div class="titleContainer">
+				<h1>Hi, I'm Angela Parga</h1>
+				<div class="phoneImage">
+					<Image 
+						src={face} 
+						alt="Profile Picture" 
+						width={100} 
+						height={100} 
+						style="border-radius: 50%;" 
+						format="webp" 
+						quality={80}
+						fit="cover" 
+						position="center" 
+					/>				
+				</div>
+			</div>
 			<p> I am a <span>self-taught full stack software engineer</span> passionate and always driven by curiosity. 
 				I strive to improve and deliver solutions that <span>meet customer needs</span>, from front-end design with <span>modern JavaScript
 				frameworks </span> to back-end solutions with <span>Node.js</span>. 
@@ -26,7 +41,8 @@ import face from '../assets/Thumbnail.jpg';
 				</a>		
 			</div>
 		</article>		
-        <Image 
+        <div class="welcomeImage">
+			<Image 
             src={face} 
             alt="Profile Picture" 
             width={200} 
@@ -36,7 +52,8 @@ import face from '../assets/Thumbnail.jpg';
             quality={80}
 			fit="cover" 
             position="center" 
-        />
+        	/>
+		</div>
     </div>
 </main>
 
@@ -44,6 +61,10 @@ import face from '../assets/Thumbnail.jpg';
 	main {
 		width: 70dvw;
 		margin: 5rem auto 10rem auto;
+	}
+
+	.phoneImage {
+		display: none;
 	}
 
 	.presentationContainer{
@@ -83,6 +104,65 @@ import face from '../assets/Thumbnail.jpg';
 	.myInfo span{
 		color: rgba(255, 251, 25, 0.658);
 		font-weight: 600;
+	}
+
+	@media screen and (max-width: 768px) {
+		main {
+			width: 90dvw;
+		}
+		h1{
+			font-size: 2rem;
+		}
+		p {
+			font-size: 1rem;
+		}
+
+		img {
+			width: 150px;
+			height: 150px;
+		}
+		.contactLinks{
+			flex-direction: row;
+			gap: 1rem;
+		}
+		.contactLinks svg {
+			width: 30px;
+			height: 30px;
+		}
+		
+	}
+
+	@media screen and (max-width: 480px) {
+		main {
+			width: 90dvw;
+		}
+		h1{
+			font-size: 1.5rem;
+		}
+		p {
+			font-size: 1rem;
+		}
+
+		img {
+			width: 100px;
+			height: 100px;
+		}
+
+		.phoneImage {
+			display: block;
+		}
+
+		.welcomeImage {
+			display: none;
+		}
+		
+		.titleContainer{
+			display: flex;
+			gap: 1rem;
+			justify-content: center;
+			align-items: center;
+		}
+		
 	}
 
 </style>

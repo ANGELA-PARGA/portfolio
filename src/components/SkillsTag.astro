@@ -23,7 +23,7 @@
         <h2>Soft skills</h2>
         <ul class="softSkillsList">
             <li>Creativity</li>
-            <li>Problem-solving</li>
+            <li>Problem solving</li>
             <li>Teamwork</li>
             <li>Communication</li>
             <li>Adaptability</li>
@@ -44,7 +44,6 @@
     }
 	section {
 		margin:  0 auto;
-        height: 90dvh;
         width: 70dvw;
         display: flex;		
 		gap: 2rem;
@@ -92,6 +91,34 @@
         list-style: none;
         color: rgb(212, 212, 212);
         font-weight: 400;
+    }
+
+    @media screen and (max-width: 680px) {
+        section {
+            width: 90dvw;
+        }
+        h1{
+            font-size: 2rem;
+        }
+        p {
+            font-size: 1rem;
+        }
+
+        ul{
+            margin: 0;
+        }
+
+        .techStackList{
+            flex-direction: column;
+            padding: 0;
+
+        }
+
+        li{
+            font-size: 0.75rem;
+            gap: 0.5rem;
+        }
+        
     }
 
 
