@@ -87,11 +87,31 @@
         padding: 0.5rem;
         border: none;
         border-radius: 0.5rem;
-        background-color: rgba(16, 16, 150, 0.452); 
+        background: linear-gradient(90deg, #06a7fd15 25%, #023855 50%, #06a7fd15 75%); 
+        background-size: 300% 200%; 
+        background-position: 0% 0%;
         list-style: none;
         color: rgb(212, 212, 212);
         font-weight: 400;
+        transition: background-color 3s linear;           
     }
+
+    li:nth-child(odd) {
+        animation: loading-animation 5s infinite linear;  
+    }
+
+    li:nth-child(even) {
+        animation: loading-animation 5s infinite reverse linear;  
+    }
+    
+    @keyframes loading-animation {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 300% 0%;
+    }
+}
 
     @media screen and (max-width: 680px) {
         section {
